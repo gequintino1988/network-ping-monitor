@@ -1,22 +1,24 @@
-# 📡 Simple Network Ping Monitor
+# 📡 Monitor Simples de Rede (Ping Script)
 
-Um script automatizado em Python puro para monitorar a disponibilidade de equipamentos de rede, links dedicados e ativos de infraestrutura de TI.
+Um script em Python puro, criado com foco no aprendizado prático! Este projeto foi desenvolvido para monitorar a disponibilidade de equipamentos de rede de forma simples, utilizando uma lógica de programação linear e ideal para iniciantes.
 
-Este projeto foi criado para simplificar a rotina de suporte, verificando rapidamente se gateways, modems e roteadores estão respondendo na rede, gerando um log de auditoria automático.
+É o projeto perfeito para quem está dando os primeiros passos em Análise e Desenvolvimento de Sistemas e quer entender como o Python interage com o sistema operacional para automatizar tarefas de infraestrutura de TI.
 
 ## 🚀 Funcionalidades
 
-- **Ping Automatizado:** Lê uma lista de endereços IPv4 a partir de um arquivo de texto.
-- **Multiplataforma:** Identifica automaticamente se o sistema é Windows ou Linux e ajusta o comando de rede.
-- **Log de Auditoria:** Salva o histórico de indisponibilidade com data e hora exatas em um arquivo `status_log.txt`.
-- **Fácil Manutenção:** Não requer instalação de bibliotecas externas complexas.
+- **Foco Didático:** Código 100% comentado, linha por linha, explicando o que cada comando faz (ideal para estudos).
+- **Leitura de Arquivos:** Lê uma lista de endereços IP diretamente de um arquivo de texto (`ips.txt`) utilizando laços de repetição (`for`).
+- **Ping Automatizado:** Utiliza comandos nativos do sistema Windows para disparar testes de conexão contra os equipamentos.
+- **Geração de Logs:** Cria e atualiza automaticamente um arquivo `status_log.txt` com o histórico dos testes, registrando o sucesso ou a falha com a data e hora exatas.
 
 ## 🛠️ Tecnologias Utilizadas
 
 - **Python 3.x**
-- Bibliotecas nativas: `os`, `platform`, `datetime`
+- Bibliotecas nativas:
+  - `os` (para integração com comandos do sistema operacional).
+  - `time` (para captura e formatação simples de horários).
 
-## ⚙️ Como usar na sua máquina
+## ⚙️ Passo a Passo: Como usar na sua máquina
 
 1. **Clone o repositório:**
    ```bash
