@@ -22,4 +22,4 @@ Um script em Python puro, criado com foco no aprendizado prático! Este projeto 
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/SEU_USUARIO/network-ping-monitor.git](https://github.com/SEU_USUARIO/network-ping-monitor.git)
+   git clone git clone https://github.com/gequintino1988/network-ping-monitor.git
